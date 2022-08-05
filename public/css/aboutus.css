@@ -1,0 +1,261 @@
+.light-100{
+	border-top: 1px solid black;
+}
+.nav-item a.dropdown-menu-right .menu-text:after{
+	    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+	
+}
+.fancy{
+	background-image: url(../img/dichvu.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #222222;
+	height: 420px;
+	color: #fff;
+	
+}
+.fancy .head .title{
+	position: relative;
+	text-align: center;
+	top: 180px;
+}
+.fancy .head .title h3 span{
+	color: #fff;
+	font-size: 30px !important;
+	line-height: 36px;
+	padding-left: 12px;
+    margin-left: 8px;
+}
+.anime{
+	position: relative;
+	text-align: center;
+	top: 160px;
+	
+}
+.anime li{
+	list-style-type: none;
+	color: #fff !important;
+	    font-size: 16px;
+    line-height: 23px;
+	display: inline-block;
+    padding-left: 12px;
+    margin-left: 8px;
+}
+.anime .seperate:before{
+	 position: absolute;
+    left: 48%;
+    top: 10;
+	color: #fff;
+	font-weight: bold;
+    width: 15px;
+    height: 13px;
+    content: "/";
+/*    opacity: .5;*/
+/*    z-index: 3;*/
+	text-align: center;
+}
+.purpose {
+	background-color: #fff !important;
+	padding:40px 0  ;
+}
+.anime a{
+	color: #fff;
+}
+.anime a:hover{
+	color: #fff;
+}
+.new-sub{
+	position: relative;
+    background: #DB5547;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px 15px;
+	text-transform: uppercase;
+	
+}
+.new-sub:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50px;
+    border-top: 36px solid #DB5547;
+    border-right: 50px solid transparent;
+    border-left: 0 solid transparent;
+    z-index: 1;
+}
+.new-sub:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background: #EF7D28;
+    left: 0;
+    top: 0px;
+    z-index: 1;
+}
+.content-sub{
+	margin-bottom: 20px;
+}
+.container-purpose{
+	padding: 0 100px;
+}
+.content-TN ul{
+	list-style: disc;
+}
+.content-TN li{
+	text-align: justify;
+	    font: normal 17px / 27px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+    word-spacing: normal;
+    color: #353a41;
+}
+.reponsi-img img{
+	max-width: 100%;
+	height: auto;
+}
+.reponsi-img{
+	display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+}
+.progressbar{
+	display: flex;
+}
+.progressbar-title{
+	 font-size: 17px;
+    margin-right: 10px;
+    margin-top: -4px;
+    width: 90px;
+}
+.ui-progressbar{
+	margin: 4px 0;
+	width: 80% !important;
+	height: 15px !important;
+}
+.progressbars{
+	text-align: right;
+}
+.ui-progressbar .ui-progressbar-value{
+	margin: 0px !important;
+}
+.slider {
+        width: 70%;
+        margin: 100px auto;
+	
+}
+.slick-slide {
+
+border: 1px solid black;
+background-color: #fff;
+margin: 0px 20px;
+box-shadow: 3px 5px 5px #333333;
+	height: 280px;
+}
+.slick-slide img {
+  width: 40%;
+	border:1px solid;
+	border-radius: 50%;
+	margin: 10px auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
+}
+.center h6 ,.center p{
+	font-size: 20px;
+	color: #DB5547;
+}
+.center h6 {
+	margin-bottom: 0;
+}
+.center span{
+	    font: normal 15px / 27px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+    word-spacing: normal;
+    color: #353a41;
+}
+.center{
+	margin-top: 50px;
+}
+.customer{
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+.customer .title-customer h4{
+	padding-top: 20px;
+	color: #FF9B39;
+	font-size: 25px;
+}
+.light-25{
+	border-top: 1px solid #FF9B39;
+	width: 25%;
+}
+.content-box{
+	padding: 30px;
+	z-index: 1;
+}
+.icon-view{
+	text-align: center;
+}
+.icon-view h5{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+@media (max-width:576px){
+.header{
+	padding: 0 ;
+	}
+.container-purpose{
+		padding: 0;
+	}
+.icon-view h5{
+	font-size: 18px !important;
+	letter-spacing: 0;
+}
+	.fa-phone-square{
+	font-size: 1.4rem;	
+}
+.content-box{
+	padding: 30px 0;
+	z-index: 1;
+}
+	.anime .seperate:before{
+	 position: absolute;
+    left: 43%;
+    top: 10;
+	color: #fff;
+	font-weight: bold;
+    width: 15px;
+    height: 13px;
+    content: "/";
+/*    opacity: .5;*/
+/*    z-index: 3;*/
+	text-align: center;
+}
+	.active a:after
+{
+	width: 100%;
+}
+	footer .col-md-4{
+		padding-bottom: 10px;
+	}
+}
